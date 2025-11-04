@@ -48,5 +48,6 @@ A simple Android app built with **Jetpack Compose** for browsing, viewing, and a
 3. Run the app on an emulator or a physical Android device.   
 ---
 ## Reference
-- AI assisted with navigation using sealed route classes, specifically in how to use createRoute() helper functions. This ensures consistency and prevents typos in route strings. It helped clarify how to manage backstack behavior with popUpTo and launchSingleTop. Ai Misunderstandings: uses navController.popBackStack() instead of navController.navigateUp(). The latter handles difference between an in app task versus external deep link navigation.
+- AI assisted with navigation using sealed route classes, specifically in how to use createRoute() helper functions. This ensures consistency and prevents typos in route strings. It helped import libraries and clarified how to manage backstack behavior with popUpTo and launchSingleTop especially the placement of these. Asked AI about the difference of usage between NavHostController and NavController.
+- AI Misunderstandings: uses navController.popBackStack() instead of navController.navigateUp(). The latter handles difference between an in app task versus external deep link navigation.
 
