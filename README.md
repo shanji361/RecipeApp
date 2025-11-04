@@ -48,5 +48,5 @@ A simple Android app built with **Jetpack Compose** for browsing, viewing, and a
 3. Run the app on an emulator or a physical Android device.   
 ---
 ## Reference
-- AI assisted with navigation using sealed route classes. It helped clarify how to manage backstack behavior with popUpTo and launchSingleTop. Ai Misunderstandings: uses navController.popBackStack() instead of navController.navigateUp() which is not the correct way to implement an app's top bar. 
+- AI assisted with navigation using sealed route classes. It helped clarify how to manage backstack behavior with popUpTo and launchSingleTop. Ai Misunderstandings: uses navController.popBackStack() instead of navController.navigateUp(). The latter handles difference between an in app task versus external deep link navigation.
 
